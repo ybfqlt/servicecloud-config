@@ -1,0 +1,14 @@
+spring:
+    profiles:
+        active:
+            - dev
+---
+spring:
+    profiles: dev   #开发环境
+    application:
+        name: servicecloud-config-xns-dev
+---
+spring:
+    profiles: test
+    application:
+        name: servicecloud-config-xns-test
